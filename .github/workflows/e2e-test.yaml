@@ -2,6 +2,9 @@
 name: E2E Cluster Upgrade
 
 on:
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       eksupgrade_version:
