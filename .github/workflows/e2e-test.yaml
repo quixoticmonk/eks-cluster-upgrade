@@ -4,7 +4,7 @@ name: E2E Cluster Upgrade
 on:
   pull_request:
     branches:
-      - quixoticmonk/eks-cluster-upgrade:main
+      - main
   workflow_dispatch:
     inputs:
       eksupgrade_version:

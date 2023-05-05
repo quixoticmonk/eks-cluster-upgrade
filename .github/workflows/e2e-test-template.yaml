@@ -31,6 +31,7 @@ on:
 
 jobs:
   create-cluster:
+    environment: dev
     name: Cluster creation
     timeout-minutes: 120
     runs-on: ubuntu-latest
