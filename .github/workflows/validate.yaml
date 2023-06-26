@@ -13,6 +13,8 @@ jobs:
     name: Linting and Styling
     runs-on: ubuntu-latest
     steps:
+    
+      - uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Checkout Source
         uses: actions/checkout@v3
         with:
